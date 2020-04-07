@@ -2,20 +2,20 @@
 Ferramenta feita em Python para Bruteforce em diversos sites.
 
 -h, --help mostra esta mensagem de ajuda e sai
-  -u USERLIST, --userlist=USERLIST Coloque o diretório do Arquivo de Usuário
-  -p PASSLIST, --passlist=PASSLIST Coloque o diretório do Arquivo de Senha
-  -f FINDLIST, --findlist=FINDLIST Coloque o diretório do Arquivo '.txt' onde os usuários encontrados deverão ser salvos
-  --usernamesel=USERNAMESEL Coloque o identificador do campo Usuário
-  --passsel=PASSSEL Coloque o identificador do campo Senha
-  -l LOGINSEL, --loginsel=LOGINSEL Coloque o botão de Login
-  -w WEBSITE, --website=WEBSITE Escolha um site alvo
+-u USERLIST, --userlist=USERLIST Coloque o diretório do Arquivo de Usuário
+-p PASSLIST, --passlist=PASSLIST Coloque o diretório do Arquivo de Senha
+-f FINDLIST, --findlist=FINDLIST Coloque o diretório do Arquivo '.txt' onde os usuários encontrados deverão ser salvos
+--usernamesel=USERNAMESEL Coloque o identificador do campo Usuário
+--passsel=PASSSEL Coloque o identificador do campo Senha
+-l LOGINSEL, --loginsel=LOGINSEL Coloque o botão de Login
+-w WEBSITE, --website=WEBSITE Escolha um site alvo
   
-  Caso o script não seja carregado com as opções acima setadas, irá para o assistente padrão ! Não se preocupe.
+Caso o script não seja carregado com as opções acima setadas, irá para o assistente padrão ! Não se preocupe.
   
 # Instrução de Instalação
- git clone https://github.com/Jonathan-Freire/garou-bruteforce.git
- pip2 install selenium
- pip2 install requests
+git clone https://github.com/Jonathan-Freire/garou-bruteforce.git
+pip2 install selenium
+pip2 install requests
   
 # Exigências
 Navegador Chrome e seu driver (instalar o driver de acordo com a versão do Chrome na máquina)
