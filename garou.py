@@ -94,7 +94,7 @@ def exec_bf(username_list, username_selector ,password_selector, login_btn_selec
                     Sel_user = browser.find_element_by_xpath('//input[@name="{}"]'.format(username_selector)) 
                     Sel_pas = browser.find_element_by_xpath('//input[@name="{}"]'.format(password_selector))
                     # Uma linha é quebrada automaticamente, fazendo com que um enter seja enviado ao site
-                    enter = browser.find_element_by_css_selector(login_btn_selector) #Finds Selector
+                    enter = browser.find_element_by_class_name(login_btn_selector) #Finds Selector
                     # Retirar a quebra de linha do fim de usuário e senha
                     usuario = usuario.rstrip('\n')
                     senha = senha.rstrip('\n')
