@@ -7,7 +7,7 @@ Ferramenta feita em Python para Bruteforce em diversos sites.
 
 -p PASSLIST, --passlist=PASSLIST Coloque o diretório do Arquivo de Senha.
 
--f FINDLIST, --findlist=FINDLIST Coloque o diretório do Arquivo '.txt' onde os usuários encontrados deverão ser salvos.
+-f FOUNDLIST, --foundlist=FOUNDLIST Coloque o diretório do Arquivo '.txt' onde os usuários encontrados deverão ser salvos.
 
 --usernamesel=USERNAMESEL Coloque o identificador do campo Usuário.
 
