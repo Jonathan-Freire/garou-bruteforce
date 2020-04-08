@@ -65,7 +65,7 @@ def set_dados():
     login_btn_selector = input('[~] Insira o selector do btn de Login: ')
     username_list = input('[~] Insira o diretório da lista de Usuários para teste: ')
     pass_list = input('[~] Insira o diretório da lista de senhas para teste: ')
-    usr_encontrados = input('[~] Coloque o diretório do Arquivo ".TXT" onde os usuários encontrados deverão ser salvos')
+    usr_encontrados = input('[~] Coloque o diretório do Arquivo ".txt" onde os usuários encontrados deverão ser salvos: ')
     # Chamar o método de Brute Force passando os parâmetros setados acima
     exec_bf(username_list, username_selector ,password_selector, login_btn_selector, pass_list, usr_encontrados, website)
 
