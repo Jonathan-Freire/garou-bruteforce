@@ -31,7 +31,7 @@ Navegador Chrome e seu driver (instalar o driver de acordo com a versão do Chro
 
 Link para o Download do Driver: http://chromedriver.chromium.org/downloads
 
-# Como Usar
+# Como Usar / How to use
 1) Encontre um site com página de Login
 2) Use o inspecionar elemento na parte onde é colocado o usuário para encontrar o valor do atributo "name" (geralmente está como "usuario"). Este valor será o identificador do campo usuário.
 Exemplo: https://imgur.com/pxVUahb
@@ -43,3 +43,6 @@ Exemplo: https://imgur.com/pxVUahb
 Exemplo: https://imgur.com/ydTtAie
 
 5) Quando solicitado, coloque os valores anotados acima do site alvo e os arquivos com os usuários e senhas que deseja tentar.
+
+# Video Tutorial:
+https://youtu.be/eBUJhhqqKgE
