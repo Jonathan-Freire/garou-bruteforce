@@ -20,7 +20,7 @@ parser = OptionParser()
 #Argumentos (gerenciados com o OptionPare)
 parser.add_option("-u", "--userlist", dest="userlist",help="Coloque o diretório do Arquivo de Usuário")
 parser.add_option("-p", "--passlist", dest="passlist",help="Coloque o diretório do Arquivo de Senha")
-parser.add_option("-f", "--findlist", dest="findlist",help="Coloque o diretório do Arquivo '.txt' onde os usuários encontrados deverão ser salvos")
+parser.add_option("-f", "--foundlist", dest="foundlist",help="Coloque o diretório do Arquivo '.txt' onde os usuários encontrados deverão ser salvos")
 parser.add_option("--usernamesel", dest="usernamesel",help="Coloque o identificador do campo Usuário")
 parser.add_option("--passsel", dest="passsel",help="Coloque o identificador do campo Senha")
 parser.add_option("-l", "--loginsel", dest="loginsel",help= "Coloque o botão de Login")
@@ -148,7 +148,7 @@ if options.userlist == None:
             if options.loginsel == None:
                 if options.passlist == None:
                     if options.website == None:
-                        if options.findlist == None:
+                        if options.foundlist == None:
                             set_dados()
 
 #Pegando os dados setados no Option Parser
@@ -158,6 +158,6 @@ password_selector = options.passsel
 login_btn_selector = options.loginsel
 website = options.website
 pass_list = options.passlist
-usr_encontrados = options.findlist
+usr_encontrados = options.foundlist
 print (banner)
 exec_bf(username, username_selector , password_selector, login_btn_selector, pass_list, usr_encontrados, website)
