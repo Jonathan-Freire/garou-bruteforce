@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #Versão do Python: 3.7.2
-#Requisitos: biblioteca Selenium; WebDriver do Google Chrome
+#Requisitos: biblioteca Selenium; WebDriver do Google Chrome teste
 
 import sys
 import selenium
